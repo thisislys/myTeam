@@ -1,0 +1,42 @@
+<!--pages/home/home.wxml-->
+<view class="wrap">
+    <image src="../../images/1.png"></image>
+    <view class="dlist">
+      <view class="every">
+           <image src="../../images/2.png"  mode="widthFix"></image>
+           <text>放送表</text>
+      </view>
+      <view class="every">
+           <image src="../../images/3.png" mode="widthFix"></image>
+           <text>放送表</text>
+      </view>
+      <view class="every">
+           <image src="../../images/4.png"  mode="widthFix"></image>
+           <text>放送表</text>
+      </view>
+      <view class="every">
+           <image src="../../images/5.png"  mode="widthFix"></image>
+           <text>放送表</text>
+      </view>
+    </view>
+    <view>
+      <view class="content-one">
+        <view class="left">
+          <text>精品佳作</text>
+        </view>
+        <text>查看更多</text>
+      </view>
+    <view>
+    <view class="all-box">
+      <view class="img-word" bindtap='ck'>
+        <image src="../../images/8.png" mode="widthFix"></image>
+        <text>狂想恋曲</text>
+      </view>
+      <view class="img-word" bindtap='ck'>
+        <image src="../../images/8.png" mode="widthFix"></image>
+        <text>狂想恋曲</text>
+      </view>
+    </view>
+      </view>
+    </view>
+</view>

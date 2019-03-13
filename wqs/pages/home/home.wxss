@@ -1,0 +1,44 @@
+/* pages/home/home.wxss */
+.wrap{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.dlist{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.dlist .every{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.dlist .every image{
+  width:100%;
+}
+.content-one{
+  width:100%;
+  height:100rpx;
+  display: flex;
+  justify-content: space-between;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.all-box{
+  width:1000rpx;
+  display: flex;
+  overflow: hidden;
+}
+.img-word{
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.img-word image{
+  width:100%;
+  height:250rpx;
+}

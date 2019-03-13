@@ -1,0 +1,53 @@
+<!--pages/detail/detail.wxml-->
+<view class="wrap">
+  <view class="list">
+    <view class="every">
+      <image src="../../images/8.png" mode="widthFix"></image>
+      <view class="word">
+        <text>狂想情人</text>
+        <text>作者:暗黑兔文化</text>
+        <text>记住了，渣男必须死</text>
+      </view>
+    </view>
+    <view class="every">
+      <image src="../../images/8.png" mode="widthFix"></image>
+      <view class="word">
+        <text>狂想情人</text>
+        <text>作者:暗黑兔文化</text>
+        <text>记住了，渣男必须死</text>
+      </view>
+    </view>
+    <view class="every">
+      <image src="../../images/8.png" mode="widthFix"></image>
+      <view class="word">
+        <text>狂想情人</text>
+        <text>作者:暗黑兔文化</text>
+        <text>记住了，渣男必须死</text>
+      </view>
+    </view>
+    <view class="every">
+      <image src="../../images/8.png" mode="widthFix"></image>
+      <view class="word">
+        <text>狂想情人</text>
+        <text>作者:暗黑兔文化</text>
+        <text>记住了，渣男必须死</text>
+      </view>
+    </view>
+    <view class="every">
+      <image src="../../images/8.png" mode="widthFix"></image>
+      <view class="word">
+        <text>狂想情人</text>
+        <text>作者:暗黑兔文化</text>
+        <text>记住了，渣男必须死</text>
+      </view>
+    </view>
+    <view class="every">
+      <image src="../../images/8.png" mode="widthFix"></image>
+      <view class="word">
+        <text>狂想情人</text>
+        <text>作者:暗黑兔文化</text>
+        <text>记住了，渣男必须死</text>
+      </view>
+    </view>
+  </view>
+</view>
