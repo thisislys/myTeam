@@ -7,8 +7,8 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#f00",
+    "navigationBarBackgroundColor": "#FF4D6A",
     "navigationBarTitleText": "微博动漫",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   }
 }

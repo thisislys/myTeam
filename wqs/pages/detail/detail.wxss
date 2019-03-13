@@ -15,12 +15,25 @@
 .list .every{
   width:100%;
   display: flex;
+  margin-top:45rpx;
+  margin-left:20rpx;
+  box-sizing: border-box;
 }
 .list .every image{
-  width:50%;
+  width:40%;
   height: 250rpx;
 }
 .list .every .word{
   display: flex;
   flex-direction: column;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.list .every .word text{
+  font-size: 30rpx;
+  color:#C1C1C1;
+}
+.nm{
+  font-size:40rpx!important;
+  color:#000!important;
 }

@@ -5,10 +5,15 @@
   display: flex;
   flex-direction: column;
 }
+swiper{
+  height:500rpx;
+}
 .dlist{
   width:100%;
   display: flex;
   justify-content: space-between;
+  margin-top:20rpx;
+  box-sizing: border-box;
 }
 .dlist .every{
   width: 25%;
@@ -17,7 +22,13 @@
   text-align: center;
 }
 .dlist .every image{
-  width:100%;
+  width:70%;
+  margin:0 auto;
+}
+.dlist .every text{
+  margin-top:10rpx;
+  box-sizing: border-box;
+  font-size:30rpx;
 }
 .content-one{
   width:100%;
@@ -25,18 +36,45 @@
   display: flex;
   justify-content: space-between;
   padding:20rpx;
+  margin-top:10rpx;
   box-sizing: border-box;
+}
+.left{
+  display: flex;
+}
+.red{
+  width:10rpx;
+  height:30rpx;
+  margin:17rpx;
+  box-sizing: border-box;
+  background: #FF4D6A;
+}
+.more{
+  font-size: 30rpx;
+  color:#C1C1C1;
 }
 .all-box{
   width:1000rpx;
-  display: flex;
-  overflow: hidden;
+  white-space: nowrap;
 }
 .img-word{
-  width:80%;
-  display: flex;
+  width:60%;
+  display: inline-block;
   flex-direction: column;
-  text-align: center;
+}
+.img-word text{
+  margin-left:20rpx;
+  margin-top:10rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color:#C1C1C1;
+}
+.nm{
+  margin-left:20rpx;
+  margin-top:10rpx;
+  box-sizing: border-box;
+  font-size:40rpx!important;
+  color:#000!important;
 }
 .img-word image{
   width:100%;
