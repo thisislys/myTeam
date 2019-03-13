@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <view class='list'>
+      <view class='left'><image class="img" src="../image/1.png" mode="aspectFill"></image></view>
+    <text class='right'>
+      <text class='h2'>狂想情人</text>
+      <text class='p'>作者：暗黑兔文化</text>
+      <text class='span'>记住了，渣男必须死</text>
+    </text>
+    </view>
+    <view class='list'>
+      <view class='left'><image class="img" src="../image/2.png" mode="aspectFill"></image></view>
+    <text class='right'>
+      <text class='h2'>魔法剩女攻略计划</text>
+      <text class='p'>作者：漫语动漫</text>
+      <text class='span'>变身魔法少女，再去恋爱</text>
+    </text>
+    </view>
+    <view class='list'>
+      <view class='left'><image class="img" src="../image/3.png" mode="aspectFill"></image></view>
+    <text class='right'>
+      <text class='h2'>捉牛级</text>
+      <text class='p'>作者：痴情叔德艺双馨</text>
+      <text class='span'>老实人的恋爱宝典</text>
+    </text>
+    </view>
+    <view class='list'>
+      <view class='left'><image class="img" src="../image/4.png" mode="aspectFill"></image></view>
+    <text class='right'>
+      <text class='h2'>神说要有光</text>
+      <text class='p'>作者：MENJI是我</text>
+      <text class='span'>救命，我变成女孩子了</text>
+    </text>
+    </view>
+    <view class='list'>
+      <view class='left'><image class="img" src="../image/5.png" mode="aspectFill"></image></view>
+    <text class='right'>
+      <text class='h2'>仙宙</text>
+      <text class='p'>作者：蜂群SWARM工作室</text>
+      <text class='span'>他的成仙之路</text>
+    </text>
+    </view>
+  </view>
+</view>

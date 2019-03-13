@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#f14a58",
+    "navigationBarTitleText": "精品佳作",
+    "navigationBarTextStyle":"black",               "enablePullDownRefresh": true, 
+    "backgroundTextStyle": "dark",
+    "onReachBottomDistance": 50,                    "backgroundColor": "#ccc",
+  }
+}

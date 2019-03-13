@@ -1,0 +1,47 @@
+/**app.wxss**/
+
+.top{
+  width: 100%;
+  height: 40px;
+  background: rgb(238, 72, 80);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usermotto{
+  margin-top: 30px;
+}
+.list{
+  width: 100%;
+  height: 100px;
+  padding: 0 10px;
+}
+.left{
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+}
+.img{
+  width: 100%;
+  height: 70%;
+}
+.right{
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  padding-left:8px;
+}
+.h2{
+  font-weight: 800;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+.p, .span{
+  font-size: 12px;
+  color: #ccc;
+  font-weight: 800;
+  display: inline-block;
+}
