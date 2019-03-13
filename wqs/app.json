@@ -6,7 +6,7 @@
     "pages/logs/logs"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#FF4D6A",
     "navigationBarTitleText": "微博动漫",
     "navigationBarTextStyle": "white"

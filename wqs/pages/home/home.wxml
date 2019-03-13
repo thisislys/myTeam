@@ -34,10 +34,10 @@
         <view class="red"></view>
         <text>精品佳作</text>
       </view>
-      <text class="more">查看更多</text>
+      <text class="more"  bindtap='ck'>查看更多</text>
     </view>
     <scroll-view class="all-box" scroll-x>
-      <view class="img-word" bindtap='ck'>
+      <view class="img-word">
         <image src="../../images/8.png" mode="widthFix"></image>
         <view class="nm">狂想恋曲</view>
         <text>记住了，渣男，必须死</text>
