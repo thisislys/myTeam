@@ -1,0 +1,35 @@
+/* pages/list/list.wxss */
+
+.list {
+  margin-top: 35rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  margin: 30rpx;
+  display: flex;
+}
+
+.lists>view {
+  width: 400rpx;
+  padding-left: 30rpx;
+}
+
+.lists image {
+  height: 148rpx;
+  width: 268rpx;
+}
+
+.block {
+  margin-top: 8rpx;
+  color: #333;
+  display: block;
+  font-weight: bold;
+}
+
+.color {
+  font-weight: normal;
+  color: #999;
+  font-size: 28rpx;
+}

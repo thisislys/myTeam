@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.2",
 	"appid": "wx7aea2003580a94e2",
-	"projectname": "miniprogram-test-1",
+	"projectname": "miniprogram-test-2",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -28,13 +28,24 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "one页面",
+					"pathName": "pages/routerOne/one",
+					"scene": null
+				}
+			]
 		}
 	}
 }

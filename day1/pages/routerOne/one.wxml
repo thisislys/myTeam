@@ -1,0 +1,8 @@
+<!-- <navigator></navigator> -->
+<navigator class="" target="" url="../routerTwo/two" hover-class="navigator-hover" open-type="navigate">
+    to b
+</navigator>
+<navigator class="" target="" url="../routerTwo/two" hover-class="navigator-hover" open-type="redirect">
+    to b
+</navigator>
+<button bindtap="jump">点击跳转其他小程序</button>

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "精品佳作",
+  "backgroundColor":"#f5f5f5",
+  "backgroundTextStyle":"dark",
+  "enablePullDownRefresh":true,
+  "onReachBottomDistance":50
+}

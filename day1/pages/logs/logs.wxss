@@ -1,97 +1,114 @@
-.head {
-  width: 100%;
-  height: 88rpx;
-  background: #ff0;
+.log-list {
   display: flex;
-  justify-content: space-around;
-  line-height: 88rpx;
+  flex-direction: column;
+  padding: 0rpx;
 }
+.swiper{
+  height: 480rpx;
+  width: 100%;
+}
+.log-item {
+  margin: 10rpx;
+}
+.slide-image{
 
-.head input {
-  background: #f0f0f0;
-  margin-top: 11rpx;
-  border-radius: 8rpx;
-  height: 66rpx;
+}
+.container>input{
+  background: rgba(0, 0, 0, .2);
+  position: fixed;
   padding-left: 20rpx;
+  top:20rpx;
+  left: 50rpx;
+  border-radius: 30rpx;
+  margin-left: 28rpx;
+  height: 60rpx;
+  width: 570rpx;
 }
-
-.logs>image {
-  height: 300rpx;
-}
-
-.nav {
-  height: 300rpx;
+/* .container>image {
   width: 100%;
+  height: 512rpx;
+} */
+
+.big, .big2 {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+}
+
+.big2 {
+  overflow: auto;
 }
 
 .dl {
-  padding-top: 10rpx;
-  width: 150rpx;
-  height: 150rpx;
   display: flex;
+  flex: 1;
   align-items: center;
   flex-direction: column;
 }
 
-.dl>text {
-  font-size: 0.7rem;
-  color: #666;
+.block {
+  margin-left: 35rpx;
+  display: block;
+  font-size: 32rpx;
 }
 
-.dl>image {
-  height: 88rpx;
-  width: 88rpx;
+.right {
+  padding-right: 38rpx;
+  text-align: right;
+  color: #999;
+  font-size: 30rpx;
 }
 
-.dl2 {
-  height: 200rpx;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.dl2 text {
-  height: 60rpx;
-  line-height: 60rpx;
-  width: 160rpx;
-  display: inline-block;
-  color: #666;
-  font-size: 0.8rem;
-  border-radius: 30rpx;
-  border: 2rpx solid #ccc;
-  margin: 10rpx;
+.img {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 24rpx;
+  padding-top: 20rpx;
   text-align: center;
 }
 
-.font {
-  color: #666;
-  font-size: 0.7rem;
-  display: flex;
-  justify-content: space-around;
+.text {
+  margin-bottom: 10rpx;
+  font-size: 26rpx;
+  color: #333;
 }
-.tit{
-  height: 100rpx;
-  width: 100%;
-  display: flex;
-}
-.tit>view{
-  display: flex;
-  flex-direction: column;
-color: #666;
-  font-size: 0.8rem;
-  line-height: 50rpx;
 
+.tit {
+  margin-top: 45rpx;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20rpx;
 }
-.tit .orange{
-  line-height: 100rpx;
-  font-size: 1.5rem;
-  font-weight: bolder;
-  color: orange;
+
+.tit>text {
+  flex: 1;
 }
-.foot{
-  /* position: fixed;
-  left: 0;
-  bottom: 0; */
+
+.line {
+  widows: 8rpx;
+  background: #ff4d6a;
+  margin-left: 28rpx;
+  border-radius: 30rpx;
+  color: #ff4d6a;
+  height: 30rpx;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.tits {
+  padding-left: 15rpx;
+}
+
+.dl2 {
+  flex-direction: column;
+}
+
+.imgs {
+  width: 488rpx;
+  height: 280rpx;
+}
+
+.color {
+  color: #888;
+  font-size: 26rpx;
+  margin-top: 14rpx;
 }

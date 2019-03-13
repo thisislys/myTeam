@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<view class='list'>
+  <view  bindtap="showtit"  class='lists' wx:for="{{arrays}}">
+    <image src="{{item.img}}">
+    </image>
+    <view>
+      <text data-tit="{{item.tit}}" class='block'>{{item.tit}}</text>
+      <text class='block color'>作者：{{item.star}}</text>
+      <text class='block color'>{{item.con}}</text>
+    </view>
+  </view>
+</view>

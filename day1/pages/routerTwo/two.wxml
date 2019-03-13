@@ -1,0 +1,7 @@
+<!--pages/routerTwo/two.wxml-->
+<navigator class="" target="" url="../routerThree/three" hover-class="navigator-hover" open-type="navigate">
+    to c
+</navigator>
+<navigator class="" target="" url="../routerThree/three" hover-class="navigator-hover" open-type="redirect">
+    to c
+</navigator>

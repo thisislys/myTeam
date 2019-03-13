@@ -1,12 +1,44 @@
 {
   "pages": [
     "pages/logs/logs",
-    "pages/index/index"
+    "pages/routerOne/one",
+    "pages/list/list",
+    "pages/routerThree/three",
+    "pages/routerTwo/two"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#FF4D6A",
+    "navigationBarTitleText": "微博动漫",
+    "navigationBarTextStyle": "white"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx7aea2003580a94e2"
+  ],
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "red",
+    "backgroundColor": "#eee",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/routerOne/one",
+        "text": "One",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },  {
+        "pagePath": "pages/routerTwo/two",
+        "text": "Two",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },  {
+        "pagePath": "pages/routerThree/three",
+        "text": "Three",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
   }
+  
 }

@@ -1,38 +1,32 @@
-<!--logs.wxml-->
-<view class="logs">
-  <view class='head'>
-    <text>扫一扫</text>
-    <input type="text" placeholder="北京当地玩" />
-    <text>消息</text>
-  </view>
-  <image src="./img/bg.png"></image>
-  <view class='nav'>
-    <view wx:for="{{array}}" class='dl'>
-      <image src="{{item.img}}"></image>
-      <text>{{item.tit}}</text>
-    </view>
-  </view>
-  <view class='font'>
-    <text>出境超市</text>
-    <text>一站灰机全球玩乐</text>
-    <text>更多</text>
-  </view>
-  <view class='dl2'>
-    <view wx:for="{{array2}}">
-      <text>{{item}}</text>
+<!-- logs.wxml -->
+<view class="container log-list">
+  <swiper class="swiper" indicator-active-color="#ff0" indicator-color="#eee" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}"  />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- <input type="text" placeholder="搜索作品或作者名称" /> -->
+  <view class='big'>
+    <view class='dl' wx:for="{{array}}">
+      <!-- <text class="iconfont icon-diannao img"></text> -->
+      <image class='img' src="{{item.img}}"></image>
+      <text class='text'>{{item.tit}}</text>
     </view>
   </view>
   <view class='tit'>
-    <text class='orange'>旅行头条</text>
     <view>
-      <text>俄罗斯世界杯观赛游</text>
-      <text>化身小美人鱼，体验浪漫之旅</text>
+      <text class='line'>|</text>
+      <text class='tits'>精品佳作</text>
     </view>
+    <text bindtap="bindViewTap" class='right'>查看更多</text>
   </view>
- <view class='nav foot'>
-    <view wx:for="{{nav}}" class='dl'>
-      <image src="{{item.img}}"></image>
-      <text>{{item.tit}}</text>
+  <view class='big2'>
+    <view class='dl2' wx:for="{{arrays}}">
+      <image class='imgs' src="{{item.img}}"></image>
+      <text class='block'>{{item.tit}}</text>
+      <text class='block color'>{{item.con}}</text>
     </view>
   </view>
 </view>

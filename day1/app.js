@@ -1,6 +1,12 @@
 //app.js
+//上拉v 下拉v 全局局部 跳转小程序v tab 分享v 弹窗v 轮播v
 App({
-  onLaunch: function () {
+  //捕获 目标 冒泡
+  //dataset 获取data开头的属性
+  //target 事件源
+  //curenttarget 监听事件的元素
+  onLaunch: function() {
+    console.log('onLaunch')
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
