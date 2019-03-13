@@ -1,0 +1,54 @@
+/**index.wxss**/
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.log-icon{
+  width: 100%;
+  height: 150rpx;
+  /* line-height: 150rpx; */
+  display: flex;
+}
+.text{
+  flex:1;
+  text-align: center;
+}
+.text text{
+  display: block;
+  width: 100%;
+  height: 30rpx;
+
+}
+.text image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.title{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.title .title-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.title .title-img{
+  margin: 20rpx 0;
+  flex: 1;
+  overflow-x: auto;
+  display: flex;
+}
+.title-img .img-every{
+   width:700rpx;
+   height: 100%;
+}
+.title-img .img-every img {
+  width: 100%;
+  height: 180rpx;
+}

@@ -1,0 +1,64 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+<!--logs.wxml-->
+<view class='container'>
+  <block>
+      <view class="log-img" >
+         <image src='../images/1.png'></image>
+      </view>
+      <view class="log-icon">
+         <view class='text'>
+          <image src='../images/2.png'></image>
+           <text> 放送表</text>
+         </view>
+         <view class='text'>
+          <image src='../images/3.png'></image>
+            <text>分类</text>
+         </view>
+         <view class='text'>
+          <image src='../images/4.png'></image>
+            <text>榜单</text>
+         </view>
+         <view class='text'>
+          <image src='../images/5.png'></image>
+           <text>完结</text>
+         </view>
+      </view>
+      <view class="title">
+         <view class='title-text'>
+             <text>
+                精品佳作
+             </text>
+             <text bindtap='bindViewTap'>
+                查看更大多
+              </text>
+         </view>
+         <view class='title-img'>
+             <view class='img-every'>
+               <image src='../images/6.png'></image>
+               <text>
+                 黑魔法南京但实际上明年底建成世界 
+               </text>
+             </view>
+             <view class='img-every'>
+               <image src='../images/6.png'></image>
+               <text>
+                 黑魔法南京但实际上明年底建成世界 
+               </text>
+             </view>
+         </view>
+      </view>
+  </block>
+</view>

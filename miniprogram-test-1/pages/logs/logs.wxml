@@ -1,0 +1,52 @@
+<!--logs.wxml-->
+<!-- <view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view> -->
+<view class="container log-list">
+  <block>
+      <view class="context">
+         <view class="context-every">
+           <image src="../images/1.png"></image>
+           <view class="context-every-text">
+             <text>黑暗情人</text>
+             <text>作者：黑暗情人</text>
+             <text>内容：黑暗情人</text>
+           </view>
+         </view>
+         <view class="context-every">
+           <image src="../images/1.png"></image>
+           <view class="context-every-text">
+             <text>黑暗情人</text>
+             <text>作者：黑暗情人</text>
+             <text>内容：黑暗情人</text>
+           </view>
+         </view>
+         <view class="context-every">
+           <image src="../images/1.png"></image>
+           <view>
+             <text>黑暗情人</text>
+             <text>作者：黑暗情人</text>
+             <text>内容：黑暗情人</text>
+           </view>
+         </view>
+         <view class="context-every">
+           <image src="../images/1.png"></image>
+           <view class="context-every-text">
+             <text>黑暗情人</text>
+             <text>作者：黑暗情人</text>
+             <text>内容：黑暗情人</text>
+           </view>
+         </view>
+         <view class="context-every">
+           <image src="../images/1.png"></image>
+           <view class="context-every-text">
+             <text>黑暗情人</text>
+             <text>作者：黑暗情人</text>
+             <text>内容：黑暗情人</text>
+           </view>
+         </view>
+      </view>
+  </block>
+</view>
