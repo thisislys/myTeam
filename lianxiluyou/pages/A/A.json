@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#fff555",
+  "navigationBarTitleText": "微信嗷嗷A",
+  "navigationBarTextStyle": "black",
+  "navigationStyle":"default",
+  "enablePullDownRefresh":true,
+  "onReachBottomDistance":50
+}

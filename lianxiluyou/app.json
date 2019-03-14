@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/A/A",
+    "pages/B/B",
+    "pages/C/C"
+  ],
+  "tabBar": {
+    
+    "selectedColor":"#ff5555",
+    "list": [
+      {
+        "pagePath": "pages/A/A",
+        "text": "A"
+      },
+      {
+        "pagePath": "pages/B/B",
+        "text": "B"
+      },
+      {
+        "pagePath": "pages/C/C",
+        "text": "C"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff555",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"default",
+    "backgroundColor":"#eeeeee"
+  }
+}
