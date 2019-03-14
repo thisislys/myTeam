@@ -6,8 +6,10 @@
 </view> -->
 <view class="container log-list">
   <block>
-      <view class="context">
-         <view class="context-every">
+      <view 
+      class="context">
+         <view 
+         class="context-every">
            <image src="../images/1.png"></image>
            <view class="context-every-text">
              <text>黑暗情人</text>
@@ -15,9 +17,12 @@
              <text>内容：黑暗情人</text>
            </view>
          </view>
-         <view class="context-every">
+         <view 
+         
+         class="context-every">
            <image src="../images/1.png"></image>
-           <view class="context-every-text">
+           <view 
+           class="context-every-text">
              <text>黑暗情人</text>
              <text>作者：黑暗情人</text>
              <text>内容：黑暗情人</text>
@@ -48,5 +53,6 @@
            </view>
          </view>
       </view>
+      <view></view>
   </block>
 </view>
