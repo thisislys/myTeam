@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class='box'>
+  <view class='boximg'>
+    <image class='image' src='../images/logo.png' mode='widthFix'></image>
+  </view>
+  <view class="cont">
+    <view class='every'>
+       <text>校园参观</text>
+       <view bindtap='bindViewTap'>
+           <image src='../images/icon1.png' mode='widthFix'></image>
+           <text>预约管理 个人预约</text>
+       </view>
+       <view bindtap='bindMyTap'>
+           <image src='../images/icon2.png' mode='widthFix'></image>
+           <text>预约管理 我的预约</text>
+       </view>
+    </view>
+    <view class='every'>
+       <text>发现精彩</text>
+       <view>
+           <image src='../images/icon3.png' mode='widthFix'></image>
+           <text>游览服务 校园导游</text>
+       </view>
+       <view>
+           <image src='../images/icon4.png' mode='widthFix'></image>
+           <text>游览服务 参观须知</text>
+       </view>
+    </view>
+    <view class='footer'>
+         <text>使用帮助</text>
+         <text>意见反馈</text>
+    </view>
+  </view>
+</view>
+

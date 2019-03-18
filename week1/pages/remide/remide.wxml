@@ -1,0 +1,44 @@
+<!--pages/remide/remide.wxml-->
+<view>
+  <view class='top'>
+    <text class='active'>近期预约</text>
+    <text>历史预约</text>
+  </view>
+  <view class='cont'>
+    <view class='every' wx:if="{{isTrue}}">
+      <view class='tops'>
+        <text>{{reTime}}</text>
+        <text>预约成功</text>
+      </view>
+      <view class='uesrs'>
+        <text>下午：{{rejutiTime}}</text>
+        <text>预约人：{{reName}}</text>
+      </view>
+      <view class='info'>
+        <text>请你携带有效证件从西门按时参观</text>
+        <text>校园参观服务不收费，警惕无照忧伤非法兜售</text>
+      </view>
+      <view class='bottom'>
+        <button bindtap='changeData'>修改</button>
+        <text>参观单日无法取消预约，请务必提前取消</text>
+      </view>
+  </view>
+  <!-- <view class='every'>
+    <view>
+      <text>{{reTime}}</text>
+      <text>预约成功</text>
+    </view>
+    <text>下午：14:00-15:00</text>
+    <text>预约人：{{reName}}</text>
+    <view>
+      <text>请你携带有效证件从西门按时参观</text>
+      <text>校园参观服务不收费，警惕无照忧伤非法兜售</text>
+    </view>
+    <view>
+      <button>修改</button>
+      <text>参观单日无法取消预约，请务必提前取消</text>
+    </view>
+  </view> -->
+  </view>
+</view>
+

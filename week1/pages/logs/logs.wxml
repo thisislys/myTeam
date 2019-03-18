@@ -1,0 +1,33 @@
+<!--logs.wxml-->
+<view class='box'>
+    <!-- <view class="section">
+      <textarea placeholder="输入名字" auto-focus />
+    </view> -->
+    <view class='time'>
+      <view class='h2'>预约日期</view>
+      <view class="views">
+       <view wx:for="{{logs}}" bindtap='addClass' wx:key="{{index}}" class='{{index==ind?"active":""}}'>
+          <text data-ind="{{index}}" >{{item.time}}</text>
+          <text>{{item.change}}</text>
+        </view>
+      </view>
+      <view wx:if="{{isShow}}">
+        <view class='h2'>入校时间</view>
+        <view class="views">
+        <view wx:for="{{times}}" bindtap='addTime' wx:key="{{index}}" class='{{index==indid?"active":""}}'>
+            <text data-indid="{{index}}">{{item.timer}}</text>
+            <text>{{item.cont}}</text>
+          </view>
+        </view>
+      </view>
+     
+    </view>
+    
+</view>
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <textarea placeholder="输入名字" name="textarea" />
+    <button form-type="submit">预约</button>
+  </form>
+</view>
+

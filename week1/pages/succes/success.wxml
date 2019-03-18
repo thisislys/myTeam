@@ -1,0 +1,7 @@
+<!--pages/succes/success.wxml-->
+<view>{{newTime}}</view>
+<view>{{newName}}</view>
+<view>{{newjutiTime}}</view>
+<button bindtap='addTrue'>
+  确定预约
+</button>

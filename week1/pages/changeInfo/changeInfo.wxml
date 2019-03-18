@@ -1,0 +1,6 @@
+<!--pages/changeInfo/changeInfo.wxml-->
+
+<text>{{name}}</text>
+<text>{{time}}</text>
+<text>{{jutiTime}}</text>
+<button bindtap='delData'>取消预约</button>
