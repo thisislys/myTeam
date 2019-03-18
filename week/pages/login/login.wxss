@@ -1,0 +1,95 @@
+/* pages/login/login.wxss */
+page{
+  width:100%;
+  height:100%;
+}
+.wrap{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+}
+.wrap>image{
+  width: 30%;
+  margin:100rpx auto;
+}
+.mask{
+  width: 100%;
+  height:100%;
+  background: #000;
+  opacity: .5;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+  display: none;
+}
+.session{
+  width:100%;
+  /* height:400rpx; */
+  background: #fff;
+  position: absolute;
+  bottom:0;
+  left:0;
+  z-index: 2;
+  display: none;
+}
+.tit{
+  width:100%;
+  height: 200rpx;
+  font-size: 50rpx;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.img-word{
+  width:100%;
+  height:200rpx;
+  display: flex;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.img-word image{
+  width:20%;
+}
+.word{
+  display: flex;
+  flex-direction: column;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.btn1{
+  width:100%;
+  height:150rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.btn1 button{
+  width:45%;
+  border-radius: 20rpx;
+}
+.pic{
+  width:150rpx;
+  height:150rpx;
+  background: #FF4D6A;
+  border-radius: 20rpx;
+  margin:200rpx auto;
+  color:#fff;
+  line-height: 150rpx;
+}
+.btn{
+  width:100%;
+}
+button{
+  width:80%;
+  margin:20rpx auto;
+  border-radius: 50rpx;
+}
+.login{
+  background:#FF4D6A;
+  color:#fff;
+  border-radius: 50rpx;
+}
+.show{
+  display: block;
+}

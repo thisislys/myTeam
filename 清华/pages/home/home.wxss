@@ -1,0 +1,79 @@
+/* pages/home/home.wxss */
+page{
+  width:100%;
+  height:100%;
+}
+.wrap{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  height:500rpx;
+  display: flex;
+  flex-direction: column;
+  background:#5E3862;
+}
+.word{
+  width:100%;
+  height:100rpx;
+  margin-top:50rpx;
+  box-sizing: border-box;
+  line-height: 100rpx;
+  text-align: center;
+  color:#fff;
+}
+.img{
+  width:95%;
+  margin: 20rpx auto;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.img image{
+  width:100%;
+}
+.content-box{
+  width:100%;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  background: #ccc;
+}
+.box-one{
+  width:95%;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  margin:150rpx auto 0;
+  background: #fff;
+}
+.box-one view{
+  width:100%;
+  line-height: 85rpx;
+  padding:10rpx;
+  box-sizing: border-box;
+  border-bottom:1px dashed #ccc;
+  font-size:35rpx;
+}
+.box-one image{
+  width:50rpx;
+}
+.tit{
+  font-size: 40rpx!important;
+}
+.box-two{
+  width:95%;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  margin:50rpx auto 0;
+  background: #fff;
+}
+.box-two view{
+  width:100%;
+  line-height: 85rpx;
+  padding:10rpx;
+  box-sizing: border-box;
+  border-bottom:1px dashed #ccc;
+  font-size:35rpx;
+}
