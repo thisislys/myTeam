@@ -1,0 +1,28 @@
+<!--pages/mine/mine.wxml-->
+<view class="wrap">
+  <view class="list">
+    <view class="act">近期预约</view>
+    <view>历史预约</view>
+  </view>
+  <view class="wrap-one" wx:if="{{day}}">
+    <view class="top">
+      <view>{{day}}</view>
+      <view>预约成功</view>
+    </view>
+    <view class="session">
+      <view>{{timer}}</view>
+      <view>预约人：王卿松</view>
+    </view>
+    <view class="wran">
+      <view>请您携带证件按时从西门参观</view>
+      <view>校园参观服务不收费，警惕无照游商非法兜售</view>
+    </view>
+    <view class="bom">
+      <view class="updata" bindtap='updata'>修改</view>
+      <view>参观当日无法取消，请您提前取消</view>
+    </view>
+  </view>
+  <view wx:else>
+      还未预约
+  </view>
+</view>
