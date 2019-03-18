@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class="wrap">
+<view class="{{switch?'show mask':'mask'}}"></view>
+<view class="{{switch?'show session':'session'}}">
+  <view class="tit">获取你的昵称，头像，地区"及性别</view>
+  <view class="img-word">
+    <image src="{{imgUrl}}" mode="widthFix"></image>
+    <view class="word">
+      <text>微信个人信息</text>
+      <text>{{nickname}}</text>
+    </view>
+  </view>
+  <view class="btn1">
+    <button class="cancle" bindtap="cancel">取消</button>
+    <button class="sure" bindtap='sure' type="primary">确定</button>
+  </view>
+</view>
+  <view class="pic">微博动漫</view>
+  <view class="btn">
+    <button data-id="11" class="login" bindgetuserinfo="handle" open-type="getUserInfo">微信登录</button>
+    <button>已有账号，手机号登陆</button>
+  </view>
+</view>
+

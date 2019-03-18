@@ -1,0 +1,72 @@
+/* pages/sure/sure.wxss */
+page{
+  width:100%;
+  height:100%;
+}
+.wrap{
+  width:100%;
+  height:100%;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+}
+.wrap-top{
+  width:95%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin:40rpx auto;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+}
+.wrap-top view{
+  height: 40px;
+  padding:20rpx;
+  box-sizing: border-box;
+}
+.wrap-top>view{
+  font-size:40rpx;
+}
+.mask{
+  width:100%;
+  height:100%;
+  background: #000;
+  opacity: .1;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  display: none;
+}
+.delog{
+  width:95%;
+  height:400rpx;
+  text-align: center;
+  font-size:40rpx;
+  background: #fff;
+  position: absolute;
+  top:200rpx;
+  left:20rpx;
+  z-index: 2;
+  border-radius: 20rpx;
+  display: none;
+}
+.delog view{
+  margin:30rpx 0;
+  box-sizing: border-box;
+}
+.bsure{
+  width:80%;
+  margin-top:40rpx;
+}
+.show{
+  display: block;
+}
+.btn{
+  width:80%;
+  height:100rpx;
+  margin-top: 15rpx;
+  box-sizing: border-box;
+  background: #5E3862;
+  color:#fff;
+}

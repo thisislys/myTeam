@@ -1,0 +1,58 @@
+/* pages/home/home.wxss */
+.wrap{
+  width:100%;
+  height:100%;
+}
+.ipt{
+  width:100%;
+  height:100rpx;
+}
+.ipt input{
+  height:80rpx;
+  background: #ccc;
+  border-radius: 20rpx;
+}
+.list-side{
+  width:1000rpx;
+  white-space: nowrap;
+}
+.act{
+  color:#f00;
+}
+.eve{
+  width:20%;
+  display: inline-block;
+  text-align: center;
+}
+.scrollBar{
+  width:100%;
+  height:1000rpx;
+  display: flex;
+  flex-direction: column;
+}
+.pic-word{
+  width:100%;
+  display: flex;
+  flex-wrap:wrap;
+}
+.pic-word .every{
+  width:50%;
+  border-radius: 20rpx;
+  padding:20rpx;
+  box-sizing:border-box;
+}
+.every>image{
+  width:100%;
+  border-radius: 20rpx;
+}
+.pwd{
+  width:100%;
+  height:80rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.pwd image{
+  width:50rpx;
+  height:50rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,28 @@
+<!--pages/self/self.wxml-->
+<view class="wrap">
+  <view class="wrap-top">
+    <view class="left">
+      <view>王卿松</view>
+      <view>居民省份证：1*****1</view>
+    </view>
+    <view class="right">
+      修改身份
+    </view>
+  </view>
+  <view class="wrap-one">
+    <view>预约日期</view>
+    <view class="list">
+      <view class="{{ind===index?'active every':'every'}}" wx:for="{{dList}}" wx:key="{{index}}" bindtap='every' data-id="{{index}}">
+        <view>{{item.date}}</view>
+        <view>{{item.txt}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="wrap-two">
+    <view>入校时间</view>
+    <view class="{{show?'timer show':'timer'}}">
+      <view bindtap='ck' class="{{idx===index?'active show':''}}" wx:for="{{dateList}}" wx:key="{{index}}" data-id="{{index}}">{{item.txt}}开放</view>
+    </view>
+  </view>
+  <button class="btn" bindtap='jump'>预约</button>
+</view>
