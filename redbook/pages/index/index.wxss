@@ -1,0 +1,100 @@
+/* pages/shop/shop.wxss */
+
+.show{
+  width: 100%;
+  background: rgba(0, 0, 0,0.3);
+  height: 100%;
+  position: absolute;
+  flex-shrink: 0;
+}
+.showcont{
+  background: #fff;
+  width: 100%;
+  height: 400rpx;
+  position: absolute; 
+  bottom: -300rpx; 
+  left: 0;
+}
+.buttons{
+ margin-top: 80rpx;
+ display: flex;
+}
+.buttons button{
+  width: 50%;
+  height:90rpx;
+  
+}
+.img{
+  width: 90rpx;
+}
+/* pages/login/login.wxss */
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100rpx;
+}
+.logo image{
+   width: 150rpx;
+   height: 150rpx;
+}
+.logo text{
+    font-size: 30rpx;
+    color: #A2A2A2;
+    margin-top: 15rpx;
+}
+.btns{
+    margin-top: 180rpx;
+}
+.btns button{
+    width: 600rpx;
+    height: 100rpx;
+    background: #FFF;
+    border:1rpx solid #CCC;
+    outline: 0;
+    border-radius:50rpx;
+    margin-top:30rpx;
+    font-size: 36rpx;
+}
+.btns button.login{
+    background: #FF2744;
+    color: #FFF;
+    border: 0;
+}
+.dialog{
+  width: 100%;
+  height:750rpx;
+  background: #FFF;
+  border-top: 1px solid #CCC;
+  position: absolute;
+  top:60%;
+  left:0;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.title{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-items: center;
+}
+.title .h4{
+  margin:10rpx 10rpx;
+  font-weight: 700;
+}
+.title text{
+  margin-top:10rpx;
+}
+.title image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+<!--pages/shop/shop.wxml-->
+<view class='box'>
+  <view class='input'>
+    <input placeholder='请输入你要搜索到内容'></input>
+  </view>
+  <view class='content'>
+    <scroll-view class="scroll-view_H" scroll-x style="width: 100%" >
+    <!-- 横滚文本 -->
+      <view>
+        <text wx:for="{{list}}" wx:key="{{index}}" bindtap='addActive' data-ind='{{index}}' class='{{ind==index?"active":""}}'>{{item.info}}</text>
+      </view>
+    </scroll-view>
+    <view class='texts'>
+    <!-- 盒子内容 -->
+       <view class="every" wx:for="{{everylist}}" wx:key="{{index}}">
+            <view class='image'>
+              <image src='{{item.icon}}' mode='widthFix'></image>
+            </view>
+            <text>{{item.cont}}</text>
+            <view class='bottom'>
+              <view class='left'>
+                <image src='{{item.uesr}}'></image>
+                <text>{{item.name}}</text>
+              </view>
+              <text>{{item.num}}</text>
+            </view>
+       </view>
+    </view>
+  </view>
+</view>
+

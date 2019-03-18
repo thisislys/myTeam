@@ -1,0 +1,24 @@
+<!--pages/shop/shop.wxml-->
+<view class="wrap">
+  <view class="logo">
+    <image src="../../images/logo.png" />
+    <text>标记我的生活</text>
+  </view>
+  <view class="btns">
+    <button class="login" open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo">微信登录</button>
+    <button>已有账号,手机号登录</button>
+  </view>
+  <view wx:if="{{isShow}}" class='show'>
+      <view class='showcont'>
+        <text>小红书申请</text>
+        <view>获取你的头像信息，地区以及性别</view>
+        <view>
+           <image src='../../images/uesr1.png' mode='widthFix' class='img'></image>
+        </view>
+        <view class="buttons">
+          <button>取消</button>
+          <button bindtap='changeTrue'>允许</button>
+        </view>
+      </view>
+  </view>
+</view>

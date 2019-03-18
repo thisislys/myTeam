@@ -1,0 +1,18 @@
+/* .log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+} */
+
+.button{
+  margin:50%  30rpx;
+  background: #ff5555;
+}
+input{
+   padding: 20rpx 0;
+   margin:50rpx  30rpx;
+   background: #cdcdcd;
+}
