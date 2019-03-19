@@ -1,0 +1,17 @@
+.index{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.item{
+  width: 46%;
+  margin: 2%;
+}
+image{
+  width: 100%;
+}
+.avatar{
+  width: 60rpx;
+  border-radius: 50%;
+}

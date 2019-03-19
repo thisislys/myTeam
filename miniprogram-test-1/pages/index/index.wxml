@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container log-list">
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='nav'>
+    <view class='dl' wx:for="{{array}}">
+      <image class='img' src="{{item.img}}"></image>
+      <text class='text'>{{item.tit}}</text>
+    </view>
+  </view>
+</view>
+<view class='list'>
+    <view>
+      <text class='line'>|</text>
+      <text class='span'>精品佳作</text>
+    </view>
+    <text class='right'>查看更多</text>
+</view>
+<view class='main'>
+    <view class='scroll' wx:for="{{arrays}}">
+      <image class='imgs' src="{{item.img}}"></image>
+      <text class='block'>{{item.tit}}</text>
+      <text class='block color'>{{item.con}}</text>
+    </view>
+</view>

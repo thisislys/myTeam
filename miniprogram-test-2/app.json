@@ -6,8 +6,8 @@
   "window":{
     "navigationBarBackgroundColor": "#f14a58",
     "navigationBarTitleText": "精品佳作",
-    "navigationBarTextStyle":"black",               "enablePullDownRefresh": true, 
+    "navigationBarTextStyle": "white",              "enablePullDownRefresh": true, 
     "backgroundTextStyle": "dark",
-    "onReachBottomDistance": 50,                    "backgroundColor": "#ccc",
+    "onReachBottomDistance": 50     
   }
 }

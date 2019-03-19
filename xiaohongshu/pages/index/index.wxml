@@ -1,0 +1,11 @@
+<view class='index'>
+  <view wx:for="{{list}}" wx:key="{{index}}" class='item' data-id='{{item.id}}' catchtap='goDetail'>
+    <image src='{{item.images_list[0].url}}' mode="widthFix" />
+    <text>{{item.title}}</text>
+    <view>
+      <image src='{{item.user.images}}' class='avatar' mode="widthFix" />
+      <text>{{item.user.nickname}}</text>
+      <text>点赞数： {{item.likes}}</text>
+    </view>
+  </view>
+</view>

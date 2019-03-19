@@ -1,0 +1,7 @@
+<!--pages/index/detail/detail.wxml-->
+<view>
+  <view wx:for="{{list}}">
+    <video src='{{item.note_list[0].video.url}}' object-fit='contain' style='height: {{item.note_list[0].video.height/item.note_list[0].video.width*375}}rpx'></video>
+    <text>{{item.note_list[0].desc}}</text>
+  </view>
+</view>

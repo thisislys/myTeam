@@ -1,0 +1,84 @@
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0rpx;
+}
+.swiper {
+height: 400rpx;
+width: 100%;
+}
+.swiper image {
+height: 100%;
+width: 100%;
+}
+.nav, .main {
+  display: flex;
+  width: 100%;
+}
+.main {
+  overflow: auto;
+}
+.dl {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+.block {
+  margin-left: 35rpx;
+  display: block;
+  font-size: 32rpx;
+}
+.right {
+  padding-right: 38rpx;
+  text-align: right;
+  color: #999;
+  font-size: 30rpx;
+}
+.img {
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 24rpx;
+  padding-top: 20rpx;
+  text-align: center;
+}
+.text {
+  margin-bottom: 10rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+.list {
+  margin-top: 45rpx;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20rpx;
+}
+.list>text {
+  flex: 1;
+}
+.line {
+  widows: 8rpx;
+  background: #ff4d6a;
+  margin-left: 28rpx;
+  border-radius: 30rpx;
+  color: #ff4d6a;
+  height: 30rpx;
+  overflow: hidden;
+  display: inline-block;
+}
+.span {
+  padding-left: 15rpx;
+}
+.scroll{
+  flex-direction: column;
+}
+.imgs {
+  width: 488rpx;
+  height: 280rpx;
+}
+.color {
+  color: #888;
+  font-size: 26rpx;
+  margin-top: 14rpx;
+}
